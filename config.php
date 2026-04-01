@@ -3,7 +3,7 @@ $host = "localhost";
 $port = "5432";
 $dbname = "airline";
 $user = "postgres";
-$pass = "1249521062";
+$pass = "${{ secrets.DB_PW }}";
 
 try {
     $pdo = new PDO(
